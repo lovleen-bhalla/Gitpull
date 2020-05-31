@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gitpull</string>
+    <string name="created_on">Created:</string>
+    <string name="closed_on">Closed:</string>
+</resources>

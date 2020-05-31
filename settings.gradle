@@ -1,0 +1,3 @@
+rootProject.name='Gitpull'
+include ':app'
+include ':restClient'
