@@ -56,7 +56,7 @@ public class PRViewHolder extends ListItemVH<PullRequestModel> {
 
             @Override
             public String key() {
-                return "roundedCorner";
+                return "roundedimage";
             }
         }).into(userImageView);
 

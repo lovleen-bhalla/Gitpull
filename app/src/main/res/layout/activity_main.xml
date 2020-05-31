@@ -6,6 +6,13 @@
     tools:context=".PullRequestActivity"
     android:background="@color/primaryDarkColor">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:id="@+id/list_pull_requests"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <FrameLayout
         android:id="@+id/layout_menu"
         android:layout_width="wrap_content"
@@ -21,12 +28,5 @@
             android:src="@drawable/ic_more_vertical" />
 
     </FrameLayout>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:paddingStart="8dp"
-        android:paddingEnd="8dp"
-        android:id="@+id/list_pull_requests"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
 </FrameLayout>
